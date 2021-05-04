@@ -1,4 +1,4 @@
-![Header](https://github.com/alicialawjy/commerce/blob/main/Screenshots/Truss_Configuration.png)
+![Header](https://github.com/alicialawjy/MATLAB-sway-structure/blob/main/Screenshots/Truss_Configuration.png)
 
 # Modelling of a Sway Structure
 The Finite Element (FE) Method is a very powerful mathematical technique used to solve complex systems of partial differential equations. When applied with respect to structural analysis of trusses and frames, the method:
@@ -17,8 +17,8 @@ Script **Radius.m** contains the function that calculates the maximum and minimu
 
 Script **Qn1_rcond.m** is used to determine rcond value when different number of cross bracings (i.e diagonal elements) are added to a Truss system. To give some background:
 - 'rcond' is known as the reciprocal condition number. It is a scale-invariant measure of how close a given matrix is to the set of singular matrices. 
-- Computationally, if the rcond is smaller than the machine precison, \epsilon = 1 x 10-15, the matrix is considered badly conditioned and the structure is statically unstable.
-- This script is used to determine the number of cross bracings required to achieve a statically structure, aka. the limit where the rcond > \epsilon.
+- Computationally, if the rcond is smaller than the machine precison, ε = 1 x 10-15, the matrix is considered badly conditioned and the structure is statically unstable.
+- This script is used to determine the number of cross bracings required to achieve a statically structure, aka. the limit where the rcond > ε.
 
 Script **CourseworkScript.m** is used to run through different possible design configurations for both Truss and Frame systems to identify the most optimal structure. It takes into consideration:
 - Economy: material quantity and costs,
